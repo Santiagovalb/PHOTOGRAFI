@@ -1,0 +1,233 @@
+.hero-section {
+    padding: 0px 20px 80px;
+    min-width: 320px;
+    margin: 0 auto;
+    max-width: 375px;
+    
+}
+.hero-inner {
+  border-radius: 30px;
+  padding: 40px 20px 0px;
+  background-color: var(--background-color-dark);
+
+  
+    
+}
+
+.hero-title {
+  max-width: 295px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.text-s {
+  font-style: italic;
+}
+
+.hero-text {
+  display: inline-block;
+  max-width: 295px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.users-block {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 253px;
+  align-items: flex-start;
+  margin-bottom: 31px;
+  gap: 40px;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.users-item {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.users-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.students {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: 0.04em;
+  max-width: 67px;
+}
+
+.users-reviews {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  
+}
+.icons-item {
+  position: relative;
+  fill: #fff;
+}
+.users-reviews-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #bea69e;
+  width: 44px;
+  height: 44px;
+}
+
+.revievs-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.revievs-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+.revievs-value {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+.icon-star {
+  stroke: var(--background-color-dark);
+  fill: var(--brown);
+}
+.hero-img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: flex-end;
+}
+
+
+@media screen and (min-width:768px) {
+  .hero-section {
+    padding: 20px 32px 100px;
+    max-width: 768px;
+  }
+  
+
+.hero-inner {
+  padding: 64px 32px 0px;
+  
+}
+
+.hero-title {
+  max-width: 517px;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+.hero-text {
+  max-width: 450px;
+ font-size: 14px;
+ line-height: 1.25;
+}
+.hero-img {
+  width: 393px;
+}
+.users-list {
+  flex-direction: row;
+  gap: 12px;
+}
+.users-block {
+  max-width: 535px;
+  margin-bottom: 41px;
+  
+}
+.students {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  max-width: 87px;
+}
+.block {
+  width: 135px;
+  height: 54px;
+}
+.users-reviews-item {
+  width: 50px;
+  height: 50px;
+}
+.revievs-text {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+}
+.revievs-value {
+  line-height: 1.25;
+}
+.users-item {
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+}
+
+
+@media screen and (min-width:1280px) {
+  .hero-section {
+    padding: 60px 100px 150px;
+    max-width: 1280px;
+  }
+  
+
+.hero-inner {
+  padding: 80px 50px 0px;
+  display: flex;
+  gap: 20px;
+}
+.hero-title {
+  max-width: 563px;
+  letter-spacing: 0.04em;
+}
+.hero-text {
+  max-width: 450px;
+ line-height: 1.28;
+ margin-bottom: 136px;
+}
+.users-block {
+  margin-bottom: 50px;
+}
+.hero-img {
+  width: 397px;
+}
+} 

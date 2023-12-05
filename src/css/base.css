@@ -1,0 +1,50 @@
+body {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--background-color-black);
+}
+
+.images {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.container {
+  padding: 0 20px 0 20px;
+}
+
+span {
+  color: var(--brown);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
+  .container {
+    max-width: 768px;
+    padding: 0 32px 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding: 75px 0;
+  }
+  .container {
+    max-width: 1280px;
+    padding: 0 100px 0 100px;
+  }
+}
